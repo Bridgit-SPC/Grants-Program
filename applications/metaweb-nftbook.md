@@ -26,10 +26,7 @@ We want to create this project because we are excited about decentralizing the o
 ### Project Details
 
 The royalty allocations for the author royalties rovided by the publisher will be:
-50% to staked NFTs
-20% to primary author (Daveed Benjamin)
-5% to the primary editor (Zanette Johnson)
-25% to Bridgit DAO
+50% to staked NFTs, 20% to primary author (Daveed Benjamin), 5% to the primary editor (Zanette Johnson), and 25% to Bridgit DAO.
 
 The author royalties will be paid in fiat to Bridgit DAO's Mercury bank account and subsequently manually sent to a FTX.us account and converted to NEAR, and manually sent the NEAR account for incoming author royalties for the Metaweb book. This account will be configured to automatically distribute royalties to the NEAR addresses for Bridgit DAO, the author and editor, and the staked NFT pool.   
 
