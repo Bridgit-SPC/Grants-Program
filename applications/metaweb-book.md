@@ -1,7 +1,5 @@
 # Mintbase Grant Proposal
 
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
-
 - **Project Name:** Metaweb NFTBook
 - **Team Name:** Bridgit To The Future, LLC
 - **Payment Address:** bridgit-dao.sputnik-dao.near
@@ -26,8 +24,6 @@ We will create Mintbase modules that support the minting and staking of pre-sale
 We want to create this project because we are excited about decentralizing the ownership (as represented by a royalty allocation) of IRL assets. We think pre-sale NFTs with staking can accelerate the adoption of the technology explored in the book as well as increase the sales and distribution of the physical book and the NFTbook. We think NFT staking has huge potential especially when connected to real world revenue streams. We are also excited about the possibility of  helping Taylor & Francis do NFTbooks for other books in their catalog.  
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 The royalty allocations for the author royalties rovided by the publisher will be:
 50% to staked NFTs
@@ -56,8 +52,6 @@ This project will not provide a APY for staking or any other staking rewards oth
 - An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
@@ -75,6 +69,7 @@ There are several other projects similar to ours in the Mintbase / NEAR ecosyste
 
 - Team leader: Daveed Benjamin
 - Team member: Reiser Stern
+- Team member: Sean ________
 
 ### Contact
 
@@ -118,18 +113,17 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 
 ## Development Roadmap :nut_and_bolt:
 
-
 ### Overview
 
 - **Total Estimated Duration:** 2 months
-- **Full-Time Equivalent (FTE):**  1.5 FTE
-- **Total Costs:** 35,000 USD
+- **Full-Time Equivalent (FTE):**  3 FTE
+- **Total Costs:** 50,000 USD
 
 ### Milestone 1 — Implement Mintbase Modules for Generative NFT Mint with scheduled Airdrop of NFTbook utility
 
 - **Estimated duration:** 1 month
-- **FTE:**  1.5
-- **Costs:** 17,500 USD
+- **FTE:**  3
+- **Costs:** $25,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -139,13 +133,13 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Mintbase module: Generative Mint | We will create a Mintbase / NEAR module that will randomly select a unique jpg or gif and mint a pre-sale NFT to a specific user wallet upon transfer of mint and gas fees  |  
 | 2. | Mintbase module: Airdrop | We will create a Mintbase / NEAR module that will airdrop a NFTbook to holders of the pre-sale NFT upon demand |  
-| 3. | Develop launch plan and materials | We will develop a marketing plan and content for the pre-sale NFT launch |  
+| 3. | Develop launch plan and materials and beging community outreach | We will develop a marketing plan and content for the pre-sale NFT launch, and begin building the community for the launch with regular tweets |  
 
 ### Milestone 2 — Implement Mintbase Modules for Staking NFT and Paying Royalties to NFT Holders
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1.5
-- **Costs:** 17,500 USD
+- **FTE:**  3
+- **Costs:** 25,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -171,5 +165,3 @@ In the medium to long term (once we have proven the model), we will approach our
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Mintbase home page
-
-We have already created the assets for the generative pre-sale NFT launch and the art for the NFT book.  
