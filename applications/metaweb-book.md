@@ -9,26 +9,47 @@
 
 ## Project Overview :page_facing_up:
 
-This project is to set up a NFT minting and staking site for a book on emerging technology, whereby 50% of the author royalties and 50% of the NFTbook sales revenues (after 15% provided to the publisher) are allocated to the staked NFTs.   
+This project develops a NFT minting and staking site for an IRL and NFT book, whereby 50% of the author royalties and 50% of the NFTbook sales revenues (after 15% provided to the publisher) are allocated to staked NFTs.   
 
 ### Overview
-
-Please provide the following:
 
 Decentralizing ownership of an IRL and NFT book
 
 Bridgit DAO is authoring a book called “The Metaweb: The Next Level of the Internet”. The book is about a new layer on top of the web that creates decentralized public space above the web page, which will drastically reduce the problems with false information, abusers, and scammers, as well as enable an unprecedented level of connection and coordination that is necessary to deal with our existential threats.
 Our publisher is the renowned [Taylor & Francis](https://taylorandfrancis.com). This will be both a physical book and a NFT book (Taylor & Francis' first NFT book). 
 
-We will start out with a generative Pre-sale NFT series. Purchasers of the Pre-sale NFTs will be airdropped a NFT book upon the release of the IRL book (slated for early 2023). Holders of the Pre-sale NFTs and the NFTbook will have the option to stake. Staked NFTs will earn a royalty allocation based on the relative time staked and the staking power of the staked NFTs. (The Pre-sale NFTs and NFT Books will have different staking powers.) 50% of the author royalties and 50% of the NFTbook sales revenues (after 15% provided to the publisher) are allocated to the staked NFTs.       
+We will start out with a generative Pre-sale NFT series. Purchasers of the Pre-sale NFTs will be airdropped a NFT book upon the release of the IRL book (slated for early 2023). Holders of the Pre-sale NFTs and the NFTbook will have the option to stake. Staked NFTs will earn a royalty allocation based on the relative time staked and the staking power of the staked NFTs. (The Pre-sale NFTs and NFT Books will have different staking powers.) 50% of the author royalties and 50% of the NFTbook sales revenues and royalties (after 15% provided to the publisher) are allocated to the staked NFTs. 
+Of the remaining 50% of the respective royalties, 25% will be distributed to the authoring team and 25% to the DAO (e.g., for promotions).        
 
-We will create Mintbase modules that support the minting and staking of NEAR NFTs. The Pre-sale NFTs can also be listed on our Mintbase store for secondary sale. 
+We will create Mintbase modules that support the minting and staking of pre-sale NFTs, as well as modules to airdrop the NFTbook to pre-sale holders upon launch and to initiate royalty payouts to NFT holders. The Pre-sale NFTs can also be listed on our Mintbase store for secondary sale. 
 
-We are interested in creating this project because  we are excited about decentralizing the ownership (as reflected by a royalty allocation) of IRL assets. We think NFTs can accelerate the adoption of the technology explored in the book as well as increase the sales and distribution of the physical book and the NFTbook. We think NFT staking has huge potential especially when connected to real world revenue streams. We are also excited about the possibility of  helping Taylor & Francis do NFTbooks for other books in their catalog.  
+We want to create this project because we are excited about decentralizing the ownership (as represented by a royalty allocation) of IRL assets. We think pre-sale NFTs with staking can accelerate the adoption of the technology explored in the book as well as increase the sales and distribution of the physical book and the NFTbook. We think NFT staking has huge potential especially when connected to real world revenue streams. We are also excited about the possibility of  helping Taylor & Francis do NFTbooks for other books in their catalog.  
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+
+The royalty allocations for the author royalties rovided by the publisher will be:
+50% to staked NFTs
+20% to primary author (Daveed Benjamin)
+5% to the primary editor (Zanette Johnson)
+25% to Bridgit DAO
+
+The author royalties will be paid in fiat to Bridgit DAO's Mercury bank account and subsequently manually sent to a FTX.us account and converted to NEAR, and manually sent the NEAR account for incoming author royalties for the Metaweb book. This account will be configured to automatically distribute royalties to the NEAR addresses for Bridgit DAO, the author and editor, and the staked NFT pool.   
+
+The pre-sale NFTs and NFT books will be configured at minting to distribute proceeds and royalties to the NEAR addresses for Bridgit DAO, the author and editor, and the staked NFT pool.   
+
+We have developed the assets for the generative NFTs including 21 transparent PNG word art files with the words "The Metaweb" using the X-Files font as well as 13 PNG images and 13 gifs for the backgrounds. These will be used to create 1,111 generative pre-sale NFTs. There will be four levels of rarity for word art files and for the backgrounds: Common (80%), Rare (15%), Epic (4%), and Legendary (1%). 
+
+The generative images will likley be created using https://generate-nft.online.
+
+We have developed the basic art for the NFT book as well. We will be making three different versions 
+
+The pre-sale NFTs will cost ~$40 (in NEAR) and have a staking power of 7. All pre-sale NFT holders will be air dropped a NFT book upon the release of the book. The NFT book will cost ~$20 and will have a staking power of 3. Thus pre-sale holders that stake their pre-sale NFT and their NFT book will get a staking power of 10 for their $40 purchase. 
+
+The technoloy stack will be React and Javascript for the front end and RUST for the backend. We will host the site on Vercel.  
+
+This project will not provide a APY for staking or any other staking rewards other than the royalty alocation. 
 
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
@@ -46,14 +67,7 @@ Our target audience is readers of high technology books, Web3 fans, developers, 
 
 Our project provides a way for people to participate in the Next Level of the Web as a early supporter and funder, and thereby to recieve an allocation of the royalties from the sales of the book and the NFTbook. The funds raised will go to the expenses associated with the production, marketing, and distribution of the book and the NFTbook, enabling the book to be    
 
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-Yes. 
-
-- If so, how is your project different?
-There are two NFTbook prjects on NEAR but they do not use NFTs as a crowdpooling vehicle for NFTbooks 
-  https://www.mintbase.io/thing/zUlYU-KEF7i2V1ozFaDsyUCQP9-aVKxfcj9IhcieP-g:writersguild.mintbase1.near This is simply a poetry book
-  https://youtu.be/vkDVF3nXivQ This project creates a platform that serializes books so they are released a chapter at a time 
-  Ref Finance allws staking of NFTs to earn $REF starting with the Antisocial Ape Club and NEARNauts NFTs: https://medium.com/nearprotocol/stake-your-nfts-receive-ref-rewards-cc847e424fae
+There are several other projects similar to ours in the Mintbase / NEAR ecosystem including two NFTbook prjects on NEAR but they do not use NFTs as a way of decentralizing ownership for an IRL asset. https://www.mintbase.io/thing/zUlYU-KEF7i2V1ozFaDsyUCQP9-aVKxfcj9IhcieP-g:writersguild.mintbase1.near is simply a poetry book on Mintbase. https://youtu.be/vkDVF3nXivQ creates a platform that serializes books so they are released a chapter at a time. Ref Finance enables staking of NFTs to earn their $REF coin for the Antisocial Ape Club and NEARNauts NFTs: https://medium.com/nearprotocol/stake-your-nfts-receive-ref-rewards-cc847e424fae, btu once again does not offer decentralized ownership of an IRL asset.
 
 ## Team :busts_in_silhouette:
 
@@ -79,10 +93,9 @@ Reiser did a NFT staking project on NEAR in which he enabled users to stake an N
 
 ### Team Code Repos
 
-We do not have code Github repositories. Bridgit is a contributor to the Presence Browser project but it is a private repository on bitbucket
+Bridgit DAO does not have code Github repositories. Bridgit is a contributor to the Presence Browser project, which has a private repository hosted on Bitbucket.
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
+Here are the Github accounts:
 - https://github.com/rieserstern
 - https://github.com/bridgitbrowser
 
@@ -91,8 +104,6 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://www.linkedin.com/meliaspapa
 
 ## Development Status :open_book:
-
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
 I have spoken briefly with Regina on Telegram about this project and she encouraged me to apply.
 
@@ -122,13 +133,13 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | GPLv3 |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Mintbase module: Generative Mint | We will create a Mintbase / NEAR module that will randomly select a unique jpg or gif and mint a pre-sale NFT to a specific user wallet upon transfer of mint and gas fees  |  
 | 2. | Mintbase module: Airdrop | We will create a Mintbase / NEAR module that will airdrop a NFTbook to holders of the pre-sale NFT upon demand |  
-| 3. | Develop marketing plan and materials | We will develop a marketing plan and content for the pre-sale NFT launch |  
+| 3. | Develop launch plan and materials | We will develop a marketing plan and content for the pre-sale NFT launch |  
 
 ### Milestone 2 — Implement Mintbase Modules for Staking NFT and Paying Royalties to NFT Holders
 
@@ -138,7 +149,7 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | GPLv3 / Unlicense |
+| 0a. | License | GPLv3 |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
@@ -161,4 +172,4 @@ In the medium to long term (once we have proven the model), we will approach our
 
 **How did you hear about the Grants Program?** Mintbase home page
 
-We have already created the assets for the generative pre-sale NFT launch and the NFT book.  
+We have already created the assets for the generative pre-sale NFT launch and the art for the NFT book.  
