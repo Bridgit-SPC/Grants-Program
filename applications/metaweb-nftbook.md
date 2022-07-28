@@ -34,7 +34,7 @@ The pre-sale NFTs and NFT books will be configured at minting to distribute proc
 
 We have developed the assets for the generative NFTs including 21 transparent PNG word art files with the words "The Metaweb" using the X-Files font as well as 13 PNG images and 13 gifs for the backgrounds. These will be used to create 1,111 generative pre-sale NFTs. There will be four levels of rarity for word art files and for the backgrounds: Common (80%), Rare (15%), Epic (4%), and Legendary (1%). 
 
-The generative images will likley be created using https://generate-nft.online.
+The generative images will likely be created using https://generate-nft.online.
 
 We have developed the basic art for the NFT book as well. We will be making three different versions 
 
