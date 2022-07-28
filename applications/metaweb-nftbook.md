@@ -7,7 +7,7 @@
 
 ## Project Overview :page_facing_up:
 
-This project develops a NFT minting and staking site for an IRL and NFT book, whereby 50% of the author royalties and 50% of the NFTbook sales revenues (after 15% provided to the publisher) are allocated to staked NFTs.   
+This project develops a NFT minting and staking site for an IRL and NFT book, whereby 50% of the author royalties and NFTbook sales revenues are allocated to staked NFTs.   
 
 ### Overview
 
