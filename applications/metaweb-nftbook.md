@@ -11,7 +11,7 @@ This project develops a NFT minting and staking site for an IRL and NFT book, wh
 
 ### Overview
 
-Decentralizing ownership of an IRL and NFT book
+Decentralizing ownership of an IRL and NFT book via NFT staking
 
 Bridgit DAO is authoring a book called “The Metaweb: The Next Level of the Internet”. The book is about a new layer on top of the web that creates decentralized public space above the web page, which will drastically reduce the problems with false information, abusers, and scammers, as well as enable an unprecedented level of connection and coordination that is necessary to deal with our existential threats.
 Our publisher is the renowned [Taylor & Francis](https://taylorandfrancis.com). This will be both a physical book and a NFT book (Taylor & Francis' first NFT book). 
