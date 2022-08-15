@@ -40,15 +40,13 @@ We have developed the basic art for the NFT book as well. We will be making thre
 
 The pre-sale NFTs will cost ~$40 (in NEAR) and have a staking power of 7. All pre-sale NFT holders will be air dropped a NFT book upon the release of the book. The NFT book will cost ~$20 and will have a staking power of 3. Thus pre-sale holders that stake their pre-sale NFT and their NFT book will get a staking power of 10 for their $40 purchase. 
 
-The technoloy stack will be React and Javascript for the front end and RUST for the backend. We will host the site on Vercel.  
+The technoloy stack will be React and Javascript for the front end and RUST for the backend. All data storage will be in the blockchain. We will store aggregate calculations between updates (e.g., total rewards distributed, current APY) in a Posgresql database for perfomance caching.  We will host the site on Vercel.  
 
 This project will not provide a APY for staking or any other staking rewards other than the royalty alocation. 
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
+The core functionality for this project can be done using the on-chain data for the NFTs. The generative NFT smart contract will simply add the NFT to the blockchain. The airdrop smart contract will simply send the NFT book to all the wallets that are holding or staking the Pre-sale NFTs. The staking smart contract will change the owner of the NFT to the project. The unstaking smart contract will change the owner of the NFT back to the staker. The royalty payout smart contract will review the on-chain data for Pre-Sale NFTs and NFT books that are staked since the last payout and calculate their relative staking allocation based on the time staked and the staking power of the NFT, and send the appropriate payouts to the staker. We will also create a script to calculate aggregate calculations at pre-defined update intervals and store between updates (e.g., total amount staked, total rewards distributed, APY) in a PostresSQL database. 
+
+Here is a mockup of the interface: https://docs.google.com/presentation/d/1Gvh2Urw105NSdcVJkdkt0hjSAFQqVZ8Nn-JtYrpR390/edit?usp=sharing
 
 ### Ecosystem Fit
 
@@ -66,7 +64,7 @@ There are several other projects similar to ours in the Mintbase / NEAR ecosyste
 
 - Team leader: Daveed Benjamin
 - Team member: Reiser Stern
-- Team member: Sean ________
+- Team member: Akshay Anvekar
 
 ### Contact
 
@@ -81,7 +79,7 @@ There are several other projects similar to ours in the Mintbase / NEAR ecosyste
 
 ### Team's experience
 
-Reiser did a NFT staking project on NEAR in which he enabled users to stake an NFT to earn tokens. 
+Reiser did a NFT staking project on NEAR in which he enabled users to stake an NFT to earn tokens. Akshay worked on the generative mint for Rocketbots under Jai: https://paras.id/collection/rocketbois.neartopia.near. Daveed came up with the Metaweb concept. We will be hiring a community mmanager and mods. 
 
 ### Team Code Repos
 
@@ -89,6 +87,7 @@ Bridgit DAO does not have code Github repositories. Bridgit is a contributor to 
 
 Here are the Github accounts:
 - https://github.com/rieserstern
+- https://github.com/Akshay1921
 - https://github.com/bridgitbrowser
 
 ### Team LinkedIn Profiles (if available)
@@ -113,14 +112,14 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 ### Overview
 
 - **Total Estimated Duration:** 2 months
-- **Full-Time Equivalent (FTE):**  3 FTE
+- **Full-Time Equivalent (FTE):**  4 FTE
 - **Total Costs:** 50,000 USD
 
 ### Milestone 1 — Implement Mintbase Modules for Generative NFT Mint with scheduled Airdrop of NFTbook utility
 
 - **Estimated duration:** 1 month
 - **FTE:**  3
-- **Costs:** $25,000 USD
+- **Costs:** $20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -135,8 +134,8 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 ### Milestone 2 — Implement Mintbase Modules for Staking NFT and Paying Royalties to NFT Holders
 
 - **Estimated Duration:** 1 month
-- **FTE:**  3
-- **Costs:** 25,000 USD
+- **FTE:**  5
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -155,8 +154,7 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 
 In the short term, we wil work with the publisher and independently to become an early supporter and owner of the book by purchasing a pre-sale NFT, a NFT book, or a physical book. This includes regular social media posts, press releases, blog posts, and a worldwide Metaweb NFT and book tour. Supporters can also join the Bridgit DAO and get compensated for activites that advance the book.   
 
-In the medium to long term (once we have proven the model), we will approach our publisher and potentially other publishers about enabling their authors to decentralize ownership of their books.  We will also use abstract the code to be used to support minting and staking NFTs for any IRL/virtual project with a revenue stream.      
-
+In the medium to long term (once we have proven the model), we will approach our publisher and potentially other publishers about enabling their authors to decentralize ownership of their books.  We will also abstract the code to be used to support minting and staking NFTs for any IRL/virtual project with a revenue stream.      
 
 
 ## Additional Information :heavy_plus_sign:
