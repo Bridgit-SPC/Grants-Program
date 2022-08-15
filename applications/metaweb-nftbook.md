@@ -14,7 +14,7 @@ This project develops a NFT minting and staking site for an IRL and NFT book, wh
 Decentralizing ownership of an IRL and NFT book via NFT staking
 
 Bridgit DAO is authoring a book called “The Metaweb: The Next Level of the Internet”. The book is about a new layer on top of the web that creates decentralized public space above the web page, which will drastically reduce the problems with false information, abusers, and scammers, as well as enable an unprecedented level of connection and coordination that is necessary to deal with our existential threats.
-Our publisher is the renowned [Taylor & Francis](https://taylorandfrancis.com). This will be both a physical book and a NFT book (Taylor & Francis' first NFT book). 
+Our publisher is the renowned [Taylor & Francis](https://taylorandfrancis.com). This will be both a physical book and a NFT book. This will be Taylor & Francis' first NFT book. 
 
 We will start out with a generative Pre-sale NFT series. Purchasers of the Pre-sale NFTs will be airdropped a NFT book upon the release of the IRL book (slated for early 2023). Holders of the Pre-sale NFTs and the NFTbook will have the option to stake. Staked NFTs will earn a royalty allocation based on the relative time staked and the staking power of the staked NFTs. (The Pre-sale NFTs and NFT Books will have different staking powers.) 50% of the author royalties and 50% of the NFTbook sales revenues and royalties (after 15% provided to the publisher) are allocated to the staked NFTs. 
 Of the remaining 50% of the respective royalties, 25% will be distributed to the authoring team and 25% to the DAO (e.g., for promotions).        
