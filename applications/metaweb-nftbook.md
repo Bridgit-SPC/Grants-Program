@@ -44,13 +44,13 @@ The technoloy stack will be React and Javascript for the front end and RUST for 
 
 This project will not provide a APY for staking or any other staking rewards other than the royalty alocation. 
 
-The core functionality for this project can be done using the on-chain data for the NFTs. The generative NFT smart contract will simply add the NFT to the blockchain. The airdrop smart contract will simply send the NFT book to all the wallets that are holding or staking the Pre-sale NFTs. The staking smart contract will change the owner of the NFT to the project. The unstaking smart contract will change the owner of the NFT back to the staker. The royalty payout smart contract will review the on-chain data for Pre-Sale NFTs and NFT books that are staked since the last payout and calculate their relative staking allocation based on the time staked and the staking power of the NFT, and send the appropriate payouts to the staker. We will also create a script to calculate aggregate calculations at pre-defined update intervals and store between updates (e.g., total amount staked, total rewards distributed, APY) in a PostresSQL database. 
+The core functionality for this project can be done using the on-chain data for the NFTs. The generative NFT smart contract will simply add the NFT to the blockchain. The airdrop smart contract will simply send the NFT book to all the wallets that are holding or staking the Pre-sale NFTs. The staking smart contract will change the owner of the NFT to the project. The unstaking smart contract will change the owner of the NFT back to the staker. The royalty payout smart contract will review the on-chain data for Pre-Sale NFTs and NFT books that are staked since the last payout and calculate their relative staking allocation based on the time staked and the staking power of the NFT, and send the appropriate payouts to all the stakers. We will also create a script to calculate aggregate calculations at pre-defined update intervals and store between updates (e.g., total amount staked, total rewards distributed, APY) in a PostresSQL database. 
 
 Here is a mockup of the interface: https://docs.google.com/presentation/d/1Gvh2Urw105NSdcVJkdkt0hjSAFQqVZ8Nn-JtYrpR390/edit?usp=sharing
 
 ### Ecosystem Fit
 
-This project fits into the ecosystem as website that enables people to mint and stake pre-sale Mintbase NFT and NFT books to earn royalties.   
+This project fits into the ecosystem as a website that enables people to mint and stake pre-sale Mintbase NFT and NFT books to earn royalties.   
 
 Our target audience is readers of high technology books, Web3 fans, developers, entreprenuers, and marketers.  
 
