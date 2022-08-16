@@ -152,7 +152,7 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 ...
 ## Future Plans
 
-In the short term, we wil work with the publisher and independently to become an early supporter and owner of the book by purchasing a pre-sale NFT, a NFT book, or a physical book. This includes regular social media posts, press releases, blog posts, and a worldwide Metaweb NFT and book tour. Supporters can also join the Bridgit DAO and get compensated for activites that advance the book.   
+In the short term, we wil work with the publisher and independently to promote the opportunity for individuals to become an early supporter and owner of the book by purchasing a pre-sale NFT, a NFT book, or a physical book. This includes regular social media posts, press releases, blog posts, and a worldwide Metaweb NFT and book tour. Supporters can also join the Bridgit DAO and get compensated for activites that advance the book.   
 
 In the medium to long term (once we have proven the model), we will approach our publisher and potentially other publishers about enabling their authors to decentralize ownership of their books.  We will also abstract the code to be used to support minting and staking NFTs for any IRL/virtual project with a revenue stream.      
 
