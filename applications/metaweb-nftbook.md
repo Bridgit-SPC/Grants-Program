@@ -147,7 +147,7 @@ https://www.dropbox.com/s/hvf8g5jx7ge2wdu/Metaweb%20book.gif?dl=0
 | 1. | Mintbase module: Stake | We will create a Mintbase / NEAR module that will enable holders to stake their pre-sale NFT and NFTbook |  
 | 2. | Mintbase module: Pay Royalties | We will create a Mintbase / NEAR module that will pay royalties on demand by admin to stakers based on the relative time staked and the staking power of their staked pre-sale NFT and/or NFTbook |  
 | 3. | NEAR chain integration | Modules Generative Mint, Airdrop, Stake, Pay Royalties, Public Webpage, and Admin Webpage of our custom chain will interact in such a way that the user mint a Pre-release NFT, the admin can airdrop the official NFTbook when the book is released, the pre-sale NFT holder can stake their pre-sale NFTs and/or NFTbooks, and the admin can trigger royalty payments as appropriate. |  
-| 4. | Implement launch plan | We will launch the pre-sale NFT using various channels including social media, press releases, and a launch event. |  
+| 4. | Implement launch plan | We will launch the pre-sale NFT using various channels including social media, press releases, and a launch event. We will have a community manager and mods to manage the Discord community. |  
 
 ...
 ## Future Plans
